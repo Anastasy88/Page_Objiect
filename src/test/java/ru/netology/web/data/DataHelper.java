@@ -42,7 +42,7 @@ public class DataHelper {
     }
 
     public static int creatValidAmount(int balance) {  //Валидный баланс
-        return new Random().nextInt(balance) + 5;
+        return new Random().nextInt(balance) + 1;
     }
 
     public static int creatInvalidAmount(int balance) {  //Не валидный баланс
